@@ -5,8 +5,14 @@ body {
       padding: 20px;
 }
 
-h1, h2 {
+h1{
     text-align: center;
+    color: #007bff;
+}
+
+h2{
+    text-align: center;
+    background-color: #007bff;
 }
 
 .section {
@@ -76,4 +82,5 @@ select, input[type="number"], button {
 
 .boton2{
     background-color: green;
+    color: white;
 }
