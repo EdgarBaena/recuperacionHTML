@@ -1,3 +1,5 @@
+console.log();
+
 const coches = [
   {
     nom: "Bugatti Chiron Super Sport 300+",
@@ -44,3 +46,4 @@ function compararCoches() {
   const coche2 = document.getElementById('coche2').value;
   const comparacionDiv = document.querySelector('.comparacion')
 ;}
+
