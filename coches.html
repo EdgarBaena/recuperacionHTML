@@ -7,6 +7,113 @@
     <link rel="stylesheet" href="coches.css">
 </head>
 <body>
-    
+    <h1>Cotxes Més Potents de 2022</h1>
+
+  <div class="section">
+    <h2>Targetes de Cotxes</h2>
+    <div class="cards">
+      <div class="card">
+        <img src="bugatti.jpg" alt="Bugatti">
+        <div class="card-body">
+          <strong>Bugatti Chiron Super Sport 300+</strong><br>
+          Potència: 1500 cavalls de força<br>
+          Motor: 8.0 litres W16
+        </div>
+      </div>
+      <div class="card">
+        <img src="koenigsegg.jpg" alt="Koenigsegg Jesko">
+        <div class="card-body">
+          <strong>Koenigsegg Jesko</strong><br>
+          Potència: 1600 cavalls de força<br>
+          Motor: V8 de 5.0 litres
+        </div>
+      </div>
+      <div class="card">
+        <img src="venom.jpg" alt="Hennessey Venom F5">
+        <div class="card-body">
+          <strong>Hennessey Venom F5</strong><br>
+          Potència: 1800 cavalls de força<br>
+          Motor: V8 de 6.6 litres
+        </div>
+      </div>
+      <div class="card">
+        <img src="rimac.jpg" alt="Rimac C_Two">
+        <div class="card-body">
+          <strong>Rimac C_Two</strong><br>
+          Potència: 1900 cavalls de força<br>
+          Motor: Elèctric
+        </div>
+      </div>
+      <div class="card">
+        <img src="lamborghini.jpg" alt="Lamborghini Sian">
+        <div class="card-body">
+          <strong>Lamborghini Sian</strong><br>
+          Potència: 800 cavalls de força<br>
+          Motor: V12 híbrid
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section comparison">
+    <h2>Comparació de Cotxes</h2>
+    <form>
+      <label for="car1">Selecciona el primer cotxe:</label>
+      <select id="car1" name="car1">
+        <option>Koenigsegg Jesko</option>
+        <option>Hennessey Venom F5</option>
+        <option>Bugatti Chiron Super Sport 300+</option>
+        <option>Rimac C_Two</option>
+        <option>Lamborghini Sian</option>
+      </select>
+
+      <label for="car2">Selecciona el segon cotxe:</label>
+      <select id="car2" name="car2">
+        <option>Koenigsegg Jesko</option>
+        <option>Hennessey Venom F5</option>
+        <option>Bugatti Chiron Super Sport 300+</option>
+        <option>Rimac C_Two</option>
+        <option>Lamborghini Sian</option>
+      </select>
+      <button class="button-blue" type="button">Comparar</button>
+    </form>
+
+    <table>
+      <tr>
+        <th>Característica</th>
+        <th>Koenigsegg Jesko</th>
+        <th>Hennessey Venom F5</th>
+      </tr>
+      <tr>
+        <td>Potència</td>
+        <td>1600 cavalls</td>
+        <td>1800 cavalls</td>
+      </tr>
+      <tr>
+        <td>Motor</td>
+        <td>V8 de 5.0 litres</td>
+        <td>V8 de 6.6 litres</td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="section power-search">
+    <h2>Cerca de Potència</h2>
+    <form>
+      <label for="power">Buscar cotxes amb més de:</label>
+      <input type="number" id="power" name="power" value="1200"> cavalls
+      <button class="button-blue" type="button">Cercar</button>
+    </form>
+    <div class="results">
+      <p><strong>Cerca feta a les 13:05:14</strong></p>
+      <ul>
+        <li>Bugatti Chiron Super Sport 300+ - 1500 cavalls</li>
+        <li>Koenigsegg Jesko - 1600 cavalls</li>
+        <li>Hennessey Venom F5 - 1800 cavalls</li>
+        <li>Rimac C_Two - 1900 cavalls</li>
+      </ul>
+    </div>
+  </div>
+  
 </body>
 </html>
