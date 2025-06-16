@@ -43,7 +43,7 @@ h1, h2 {
       padding: 10px;
 }
 
-.comparison, .power-search {
+.comparacion, .potencia {
       margin-top: 20px;
 }
 
@@ -65,7 +65,7 @@ select, input[type="number"], button {
       width: 150px;
 }
 
-.button-blue {
+.boton {
       background-color: #007bff;
       color: white;
       border: none;
