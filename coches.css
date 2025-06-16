@@ -5,6 +5,11 @@ body {
       padding: 20px;
 }
 
+strong{
+    color: #007bff;
+
+}
+
 h1{
     text-align: center;
     color: #007bff;
